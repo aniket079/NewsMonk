@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Base */
+
+p.typewriter-heading{ 
+  position: absolute;
+  color: hsl(235, 86%, 45%);
+  font-weight: bold!important;
+  font-family: "poppins", monospace!important;
+  font-size: 35px;
+  letter-spacing: 2px!important;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+}
+p.fetch{ 
+  position: absolute;
+  color: hsl(0, 0%, 100%);
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.6);
+  font-weight: bold!important;
+  font-family: "poppins", monospace!important;
+  font-size: 35px;
+  letter-spacing: 2px!important;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1000px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

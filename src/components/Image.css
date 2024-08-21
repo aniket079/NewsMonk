@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap);
+
+/* Base */
+.land {
+  padding: 0;
+  margin: 0!important;
+  background-color: #000!important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  
+  font-family: "Red Hat Display", sans-serif!important;
+}
+
+#start {
+  background: url("./th.jpeg");
+  background-size: 40%;
+  background-position: 50% 50%;
+  background-clip:content-box;
+  -webkit-background-clip: text;
+  color: hsla(0, 0%, 0%, 0.08);
+  animation: zoomout 10s ease 500ms forwards;
+  font-size: 12vw!important;
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
